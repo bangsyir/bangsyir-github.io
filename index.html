@@ -5,12 +5,13 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="shortcut icon" href="/public/img/favicon.ico" type="image/x-icon">
-	<title></title>
+	<title>Bangsyir | Profile</title>
 	<!-- CSS only -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
 	<link rel="stylesheet" href="/public/css/style.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 	<link href="https://fonts.googleapis.com/css?family=New+Rocker&display=swap" rel="stylesheet">
 </head>
@@ -37,7 +38,7 @@
 		<div class="jumbotron">
 			<div class="text-center">
 				<img src="/public/img/profile.webp" alt="" class="rounded-circle img-thumbnail">
-				<h4 class="fw-bold">BANGSYIR</h4>
+				<h4 class="fw-bold" data-aos="fade-up">BANGSYIR</h4>
 				<p>Wep Programmer | Freelancer</p>
 				<a href="https://www.facebook.com/abcdefghijklmnopkrstuvwxyz1234567890" target="_blank"
 					class="btn btn-primary"><i class="bi-facebook"></i></a>
@@ -60,12 +61,12 @@
 			</div>
 			<hr>
 			<div class="row">
-				<div class="col-sm">
+				<div class="col-sm" data-aos="fade-right">
 					<p>My name is Syirra Fitrah bin Ahmad. I am live in Kuala Lumpur.Having skills and interested on web
 						development. Capable of the fields of full stack web development (back-end & front-end) and photography.
 					</p>
 				</div>
-				<div class="col-sm">
+				<div class="col-sm" data-aos="fade-left">
 					<p> Also i am always interested in solving problems, creative thinking and business. Before this i developed
 						listing and blog website for my own with php language, laravel and mysql for the database. Now i focus on
 						building an online shop with nodejs, expressjs and mongodb for database.</p>
@@ -82,24 +83,28 @@
 		<div class="container">
 			<h3 class="text-center fw-bold">Education</h3>
 			<hr>
-			<h3 class="h4 mb-1">Bachelor in Software Enginering</h3>
-			<small class="d-block text-uppercase font-weight-bold text-muted">
-				<time datetime="2016-01">January 2016</time> &ndash; <time datetime="2017-12">December 2017</time>
-			</small>
-			<div class="d-sm-flex justify-content-sm-between align-items-sm-baseline">
-				<h5 class="mb-0">Kuala Lumpur Metropolitan College</h5>
+			<div data-aos="zoom-in-up">
+				<h3 class="h4 mb-1">Bachelor in Software Enginering</h3>
+				<small class="d-block text-uppercase font-weight-bold text-muted">
+					<time datetime="2016-01">January 2016</time> &ndash; <time datetime="2017-12">December 2017</time>
+				</small>
+				<div class="d-sm-flex justify-content-sm-between align-items-sm-baseline">
+					<h5 class="mb-0">Kuala Lumpur Metropolitan College</h5>
+				</div>
+				<p>I went to KLMU after long time my journey keep money for come to next education level. and drop out at 6th
+					semester beacause financial issue.</p>
+				<h3 class="h4 mb-1">Science</h3>
 			</div>
-			<p>I went to KLMU after long time my journey keep money for come to next education level. and drop out at 6th
-				semester beacause financial issue.</p>
-			<h3 class="h4 mb-1">Science</h3>
-			<small class="d-block text-uppercase font-weight-bold text-muted">
-				<time datetime="2008-07">July 2008</time> &ndash; <time datetime="2014-6">June 2014</time>
-			</small>
-			<div class="d-sm-flex justify-content-sm-between align-items-sm-baseline">
-				<h5 class="mb-0">Indonesian School of Kuala Lumpur High School</h5>
+			<div data-aos="zoom-in-up">
+				<small class="d-block text-uppercase font-weight-bold text-muted">
+					<time datetime="2008-07">July 2008</time> &ndash; <time datetime="2014-6">June 2014</time>
+				</small>
+				<div class="d-sm-flex justify-content-sm-between align-items-sm-baseline">
+					<h5 class="mb-0">Indonesian School of Kuala Lumpur High School</h5>
+				</div>
+				<p>From this school i know who am i. i have lot learn everything from this school. Not only education, this school
+					teach me the real life.</p>
 			</div>
-			<p>From this school i know who am i. i have lot learn everything from this school. Not only education, this school
-				teach me the real life.</p>
 		</div>
 		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
 			<path fill="#f8f9fa" fill-opacity="1"
@@ -115,14 +120,16 @@
 					<hr class="line-bold">
 				</div>
 			</div>
-			<div class="text">
+			<div data-aos="fade-down"
+			data-aos-easing="linear"
+			data-aos-duration="1500">
 				<p>I started to know programming and design when I was in high school. That was the first time I
 					knew htm, css and how to operate coreldraw. At the end of the year in high school, i became
 					interested in learning about web programming and until now. This is a list of programming
 					languages, frameworks / libraries, and design applications that I'm good at :</p>
 			</div>
 			<div class="row justify-content-center">
-				<div class="col-sm-5 col-sm-offset-1 text-center pt-4 wpl">
+				<div class="col-sm-5 col-sm-offset-1 text-center pt-4 wpl" data-aos="zoom-out-right">
 					<h6 class="font-weight-bold text-secondary">Web Programing Language</h6>
 					<hr class="line-bold">
 					<label class="pt-3"><i class='fab fa-php'></i> PHP</label>
@@ -147,7 +154,7 @@
 					</div>
 
 				</div>
-				<div class="col-sm-5 col-sm-offset-1 text-center pt-4 wpe">
+				<div class="col-sm-5 col-sm-offset-1 text-center pt-4 wpe" data-aos="zoom-out-left">
 					<h6 class="font-weight-bold text-secondary">Web Programing Environment</h6>
 					<hr class="line-bold">
 					<label class="pt-3"><i class="fab fa-github"></i> GIT/GITHUB</label>
@@ -176,7 +183,7 @@
 							aria-valuenow="89" aria-valuemin="0" aria-valuemax="100"></div>
 					</div>
 				</div>
-				<div class="col-sm-5 col-sm-offset-1 text-center pt-4 fl">
+				<div class="col-sm-5 col-sm-offset-1 text-center pt-4 fl" data-aos="zoom-out-right">
 					<h6 class="font-weight-bold text-secondary">Framework/Libraries/CMS</h6>
 					<hr class="line-bold">
 					<label class="pt-3"><i class="fab fa-laravel"></i> LARAVEL</label>
@@ -216,7 +223,7 @@
 					</div>
 				</div>
 
-				<div class="col-sm-5 col-sm-offset-1 text-center pt-4 cd">
+				<div class="col-sm-5 col-sm-offset-1 text-center pt-4 cd" data-aos="zoom-out-left">
 					<h6 class="font-weight-bold text-secondary">Creative Design</h6>
 					<hr class="line-bold">
 					<label class="pt-3"><i class="fab fa-adobe"></i> ADOBE PHOTOSHOP</label>
@@ -255,7 +262,7 @@
 			</div>
 			<hr>
 			<div class="row">
-				<div class="col-6 col-md-3 pt-2">
+				<div class="col-6 col-md-3 pt-2" data-aos="zoom-in">
 					<div class="card">
 						<img src="https://belihub.com/images/template/belihub_og_image_new.png" class="card-img-top" height="150">
 						<div class="card-body">
@@ -265,7 +272,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-6 col-md-3 pt-2">
+				<div class="col-6 col-md-3 pt-2" data-aos="zoom-in">
 					<div class="card">
 						<img src="/public/img/telegrambot.webp" class="card-img-top" height="150">
 						<div class="card-body">
@@ -275,7 +282,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-6 col-md-3 pt-2">
+				<div class="col-6 col-md-3 pt-2" data-aos="zoom-in">
 					<div class="card">
 						<img src="/public/img/whatsapp.webp" class="card-img-top" height="150">
 						<div class="card-body">
@@ -285,7 +292,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-6 col-md-3 pt-2">
+				<div class="col-6 col-md-3 pt-2" data-aos="zoom-in">
 					<div class="card">
 						<img src="/public/img/chat.webp" class="card-img-top" height="150">
 						<div class="card-body">
@@ -330,6 +337,10 @@
 	<!-- JavaScript Bundle with Popper -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+	</script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
 	</script>
 </body>
 
